@@ -104,4 +104,28 @@ router.delete('/products/:id', (req, res) => {
   }
 });
 
+router.get('/products/report', (req, res) => {
+  db = dbo.getDb();
+  db.collection('products')
+    .aggregate([
+      {
+        $project: {
+          _id: 0,
+          name: 1,
+          totalQuantity: '$quantity',
+          totalValue: { $multiply: ['$quantity', '$price'] },
+        },
+      },
+    ])
+    .toArray()
+    .then((result) => {
+      res.status(200).json(result);
+    })
+    .catch(() => {
+      res.status(500).json({
+        error: 'Problem z wygenerowaniem raportu',
+      });
+    });
+});
+
 module.exports = router;
