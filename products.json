@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Laptop",
+    "price": 2500,
+    "description": "Powerful laptop for work and entertainment",
+    "quantity": 20,
+    "unit": "pieces"
+  },
+  {
+    "name": "Smartphone",
+    "price": 800,
+    "description": "Latest model with advanced features",
+    "quantity": 30,
+    "unit": "pieces"
+  },
+  {
+    "name": "Wireless Mouse",
+    "price": 30,
+    "description": "Ergonomic mouse with wireless connectivity",
+    "quantity": 50,
+    "unit": "pieces"
+  },
+  {
+    "name": "LED TV",
+    "price": 1200,
+    "description": "High-definition LED television",
+    "quantity": 10,
+    "unit": "pieces"
+  },
+  {
+    "name": "Coffee Maker",
+    "price": 80,
+    "description": "Automatic coffee maker with timer",
+    "quantity": 15,
+    "unit": "pieces"
+  },
+  {
+    "name": "External Hard Drive",
+    "price": 120,
+    "description": "1TB external hard drive for additional storage",
+    "quantity": 25,
+    "unit": "pieces"
+  },
+  {
+    "name": "Fitness Tracker",
+    "price": 50,
+    "description": "Water-resistant fitness tracker with heart rate monitor",
+    "quantity": 40,
+    "unit": "pieces"
+  },
+  {
+    "name": "Desk Chair",
+    "price": 150,
+    "description": "Comfortable office chair with adjustable height",
+    "quantity": 8,
+    "unit": "pieces"
+  },
+  {
+    "name": "Bluetooth Earbuds",
+    "price": 40,
+    "description": "Wireless Bluetooth earbuds with noise cancellation",
+    "quantity": 35,
+    "unit": "pieces"
+  },
+  {
+    "name": "Portable Blender",
+    "price": 60,
+    "description": "Compact blender for smoothies on the go",
+    "quantity": 18,
+    "unit": "pieces"
+  }
+]
